@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     Center(
-      child: Row(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         // mainAxisAlignment: MainAxisAlignment.start,
         // mainAxisAlignment: MainAxisAlignment.spaceBetween,
