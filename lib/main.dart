@@ -2,12 +2,9 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const Center(
-      child: Text(
-        'Hello, Deriv!',
-        textDirection: TextDirection.ltr,
-        style: TextStyle(fontSize: 50),
-       ),
+    Center(
+      child: Image.network(
+          'https://global.discourse-cdn.com/business7/uploads/deriv/original/1X/d3d6e390e7775f74826935d6c34b8fd870611a40.png'),
     ),
   );
 }
