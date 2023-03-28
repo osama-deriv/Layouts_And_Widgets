@@ -4,7 +4,9 @@ void main() {
   runApp(
     Center(
       child: Row(
-        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
+        // mainAxisAlignment: MainAxisAlignment.start,
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
         textDirection:TextDirection.ltr ,
         children: [
           Container(
