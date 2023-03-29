@@ -13,10 +13,14 @@ void main() {
             child: Image.network(
                 'https://global.discourse-cdn.com/business7/uploads/deriv/original/1X/d3d6e390e7775f74826935d6c34b8fd870611a40.png'),
           ),
-          const Text(
-            'Deriv',
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 40),
+          const Positioned(
+            left: 60,
+            top: 130,
+            child: Text(
+              'Deriv',
+              textDirection: TextDirection.ltr,
+              style: TextStyle(fontSize: 40),
+            ),
           )
         ],
       ),
