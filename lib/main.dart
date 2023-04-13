@@ -1,28 +1,47 @@
 import 'package:flutter/material.dart';
 
+Widget flutterLogo() {
+  return const FlutterLogo(
+    size: 75,
+  );
+}
+
+Widget favIcon() {
+  return const Icon(
+    Icons.favorite,
+    color: Colors.red,
+    size: 48.0,
+  );
+}
+
+Widget likeIcon() {
+  return const Icon(
+    Icons.thumb_up,
+    color: Colors.blue,
+    size: 48.0,
+  );
+}
+
+Widget starIcon() {
+  return const Icon(
+    Icons.star,
+    color: Colors.yellow,
+    size: 48.0,
+  );
+}
+
 void main() {
   runApp(
-    Center(
-      child: Stack(
-        textDirection: TextDirection.ltr,
-        children: [
-          Container(
-            height: 200,
-            width: 200,
-            padding: const EdgeInsets.all(10),
-            child: Image.network(
-                'https://global.discourse-cdn.com/business7/uploads/deriv/original/1X/d3d6e390e7775f74826935d6c34b8fd870611a40.png'),
-          ),
-          const Positioned(
-            left: 60,
-            top: 130,
-            child: Text(
-              'Deriv',
-              textDirection: TextDirection.ltr,
-              style: TextStyle(fontSize: 40),
-            ),
-          )
-        ],
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('My Layout'),
+        ),
+        body: Container(
+          padding: const EdgeInsets.all(16.0),
+          // start write your code here starting by add child to this container
+          // child: ...
+        ),
       ),
     ),
   );
